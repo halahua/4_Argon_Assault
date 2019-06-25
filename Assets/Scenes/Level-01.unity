@@ -827,6 +827,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99580656aab472842b8e13e7c5ff5270, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xSpeed: 35
+  xRange: 22
 --- !u!33 &1620690062458386558
 MeshFilter:
   m_ObjectHideFlags: 0
