@@ -356,7 +356,7 @@ Transform:
   - {fileID: 140997740}
   - {fileID: 2109778924}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -526,10 +526,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 12.33, z: -10}
+  m_LocalRotation: {x: -0.08736754, y: -0.34598804, z: 0.03237927, w: -0.93360096}
+  m_LocalPosition: {x: -163.59952, y: 43.112442, z: -29.770912}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1719727062}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -697,12 +698,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1719727061}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 46, z: 113.5}
+  m_LocalPosition: {x: 0, y: -4.3, z: 36.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2034810702175317165}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 963194228}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1735040398
 GameObject:
@@ -806,6 +807,7 @@ GameObject:
   - component: {fileID: 1620690062458386558}
   - component: {fileID: 8025269190917821582}
   - component: {fileID: 7551616251755200480}
+  - component: {fileID: 1298397013070506012}
   m_Layer: 0
   m_Name: Player Ship
   m_TagString: Untagged
@@ -813,6 +815,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1298397013070506012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298397013070506011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99580656aab472842b8e13e7c5ff5270, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!33 &1620690062458386558
 MeshFilter:
   m_ObjectHideFlags: 0

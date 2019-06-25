@@ -3,18 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-public class Player : MonoBehaviour
-{
-    // Start is called before the first frame update
+public class Player : MonoBehaviour {
+
+    [Tooltip("In ms^-1")] [SerializeField] float xSpeed = 4f;
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
-        float horizontalThrow = CrossPlatformInputManager.GetAxis("Horizontal");
-        print(horizontalThrow);
+        float xThrow = CrossPlatformInputManager.GetAxis("Horizontal");
+        float xOffsetThisFrame = xThrow * xSpeed * Time.deltaTime;
+        print(xOffsetThisFrame);
     }
 }
