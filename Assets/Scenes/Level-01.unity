@@ -547,9 +547,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   circuit: {fileID: 604297997}
-  lookAheadForTargetOffset: 5
-  lookAheadForTargetFactor: 0.1
-  lookAheadForSpeedOffset: 20
+  lookAheadForTargetOffset: 3.7
+  lookAheadForTargetFactor: -0.95
+  lookAheadForSpeedOffset: 23.51
   lookAheadForSpeedFactor: 0.2
   progressStyle: 0
   pointToPointThreshold: 4
@@ -698,7 +698,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1719727061}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.3, z: 36.6}
+  m_LocalPosition: {x: 0, y: 0, z: 36.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2034810702175317165}
@@ -827,8 +827,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99580656aab472842b8e13e7c5ff5270, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xSpeed: 35
-  xRange: 22
+  Speed: 75
+  xRange: 32
+  yRange: 15
+  positionPitchFactor: -1.3
+  controlPitchFactor: 15
+  positionYawFactor: 1
+  controlRollFactor: -35
 --- !u!33 &1620690062458386558
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -844,7 +849,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1298397013070506011}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.070988, y: 0.070988, z: 0.070988}
   m_Children: []
