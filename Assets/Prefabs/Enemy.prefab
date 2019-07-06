@@ -11,8 +11,7 @@ GameObject:
   - component: {fileID: 3945785575817883607}
   - component: {fileID: 3943819502378866237}
   - component: {fileID: 3935175794028038311}
-  - component: {fileID: 2850442919055871966}
-  - component: {fileID: 3948891223287582489}
+  - component: {fileID: 7199894070604626744}
   - component: {fileID: 1857650422}
   m_Layer: 0
   m_Name: Enemy
@@ -80,20 +79,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &2850442919055871966
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3947723588095435367}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.6627087, y: 0.48463196, z: 0.14032477}
-  m_Center: {x: 0.00000023841858, y: 0.00000011920929, z: -0.000000003725291}
---- !u!54 &3948891223287582489
+--- !u!54 &7199894070604626744
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
