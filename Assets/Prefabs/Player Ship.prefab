@@ -13,12 +13,12 @@ GameObject:
   - component: {fileID: 2329188207561344257}
   - component: {fileID: 2329188207561344258}
   m_Layer: 0
-  m_Name: Explosion
+  m_Name: Player Death FX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2329188207561344263
 Transform:
   m_ObjectHideFlags: 0
@@ -4994,6 +4994,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelLoadDelay: 1
+  deathFX: {fileID: 2329188207561344259}
 --- !u!1 &6479076375557879713
 GameObject:
   m_ObjectHideFlags: 0
@@ -5006,7 +5007,7 @@ GameObject:
   - component: {fileID: 6479076375557879718}
   - component: {fileID: 6479076375557879719}
   m_Layer: 0
-  m_Name: Bullets (1)
+  m_Name: Bullets Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8548,9 +8549,9 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     range: {x: 0, y: 1}
   CollisionModule:
-    enabled: 0
+    enabled: 1
     serializedVersion: 3
-    type: 0
+    type: 1
     collisionMode: 0
     colliderForce: 0
     multiplyColliderForceByParticleSize: 0
@@ -8730,7 +8731,7 @@ ParticleSystem:
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
-    collisionMessages: 0
+    collisionMessages: 1
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
@@ -9758,7 +9759,7 @@ GameObject:
   - component: {fileID: 6479076376140241374}
   - component: {fileID: 6479076376140241375}
   m_Layer: 0
-  m_Name: Bullets (2)
+  m_Name: Bullets Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13300,9 +13301,9 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     range: {x: 0, y: 1}
   CollisionModule:
-    enabled: 0
+    enabled: 1
     serializedVersion: 3
-    type: 0
+    type: 1
     collisionMode: 0
     colliderForce: 0
     multiplyColliderForceByParticleSize: 0
@@ -13482,7 +13483,7 @@ ParticleSystem:
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
-    collisionMessages: 0
+    collisionMessages: 1
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
