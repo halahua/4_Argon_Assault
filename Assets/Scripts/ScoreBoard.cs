@@ -18,6 +18,7 @@ public class ScoreBoard : MonoBehaviour {
 
     public void ScoreHit(int scoreIncrease)
     {
+        // git test
         score = score + scoreIncrease;
         scoreText.text = score.ToString();
     }
