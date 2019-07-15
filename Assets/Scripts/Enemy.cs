@@ -32,7 +32,6 @@ public class Enemy : MonoBehaviour {
         {
             KillEnemy();
         }
-
     }
 
     private void ProcessHit()
